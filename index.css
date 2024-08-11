@@ -85,7 +85,7 @@ background-image: linear-gradient(to right, rgb(60, 55, 68), rgba(160, 151, 152,
  .firstpagebg{width:100%; overflow-x:hidden;}
  @keyframes join {
     0%{
-     transform:translate(-200%); }
+     transform:translate(-100%); }
    100%{
     transform:translate(75%);}}
 }
