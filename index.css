@@ -79,9 +79,10 @@ background-image: linear-gradient(to right, rgb(60, 55, 68), rgba(160, 151, 152,
  .c2{width:17rem; height:15rem; margin-top:20rem; margin-left:30%;} 
  .c3{width:17rem; height:15rem;  margin-top:40rem; margin-left:2%;} 
  .c4{width:17rem; height:15rem;  margin-top:45rem; margin-left:35%;}
- html body{ width:100%; overflow:hidden;} .content h3{font-family:monospace; word-spacing:-0.5rem;}
+ .c1{padding-left:1rem; }
+ html body{ width:100%; overflow-x:hidden;} .content h3{font-family:monospace; word-spacing:-0.5rem;}
  .content h2{margin-top:65rem; font-size:2rem; font-family:monospace; width:100%;}
- .firstpagebg{height:100rem; width:100%; overflow:hidden;}
+ .firstpagebg{width:100%; overflow-x:hidden;}
  @keyframes join {
     0%{
      transform:translate(-120%); }
