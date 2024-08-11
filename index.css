@@ -1,13 +1,14 @@
-.html body{
+html body{
+    margin:0px;
+    padding:0px;
     width:100%;
-    height:100%;
-    overflow-x:hidden;
+    overflow-x: hidden;
 }
 
 .firstpagebg{
     background-image:url(space1.jpg); animation: bg 30s infinite;
     background-repeat:no-repeat; background-size:cover;
-    background-position:center; width:100%; height:100%;}
+    background-position:center; width:100%; height:100rem;}
 
 .firstpagebg ul{ margin-left:57%; margin-top:2rem; 
     font-size:1.1rem; position:sticky; top:0; z-index:30;}
@@ -45,7 +46,7 @@ background-image: linear-gradient(to right, rgb(60, 55, 68), rgba(160, 151, 152,
 
 .card-title{ color:white; font-family:Georgia;
     font-size:1.4rem; background-color:rgba(43, 40, 40, 0.377);}
-.card-text{ color:rgb(233, 230, 230); margin-top:2rem;}
+.card-text{ color:rgb(233, 230, 230); margin-top:2rem; padding-left:1rem;}
 
 
 @keyframes slogan {
@@ -74,12 +75,13 @@ background-image: linear-gradient(to right, rgb(60, 55, 68), rgba(160, 151, 152,
 
  @media  only screen and (width <= 485px) { html{font-size:50%;} .logo{margin-top:-9rem;} 
  .content video{width:40rem; height:12rem; margin-top:10rem;}
- .c1{width:17rem; height:15rem; margin-top:15rem; margin-left:27rem;} 
- .c2{width:17rem; height:15rem; margin-top:20rem; margin-left:12rem;} 
- .c3{width:17rem; height:15rem;  margin-top:40rem; margin-left:1rem;} 
- .c4{width:17rem; height:15rem;  margin-top:45rem; margin-left:16rem;}
-.html body{height:100%; overflow-y: hidden;} 
- .content h2{margin-top:65rem; font-size:2rem; width:100%;}
+ .c1{width:17rem; height:15rem; margin-top:15rem; margin-left:62%;} 
+ .c2{width:17rem; height:15rem; margin-top:20rem; margin-left:30%;} 
+ .c3{width:17rem; height:15rem;  margin-top:40rem; margin-left:2%;} 
+ .c4{width:17rem; height:15rem;  margin-top:45rem; margin-left:35%;}
+ html body{ width:100%; overflow:hidden;} .content h3{font-family:monospace; word-spacing:-0.5rem;}
+ .content h2{margin-top:65rem; font-size:2rem; font-family:monospace; width:100%;}
+ .firstpagebg{height:100rem; width:100%; overflow:hidden;}
  @keyframes join {
     0%{
      transform:translate(-120%); }
