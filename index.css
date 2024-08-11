@@ -1,0 +1,88 @@
+.html body{
+    width:100%;
+    height:100%;
+    overflow-x:hidden;
+}
+
+.firstpagebg{
+    background-image:url(space1.jpg); animation: bg 30s infinite;
+    background-repeat:no-repeat; background-size:cover;
+    background-position:center; width:100%; height:100%;}
+
+.firstpagebg ul{ margin-left:57%; margin-top:2rem; 
+    font-size:1.1rem; position:sticky; top:0; z-index:30;}
+.nav-link{color:rgb(236, 241, 241);}
+
+.content video{ margin-top:2.5rem;}
+
+.content h3{font-size:1.9rem; animation-name:slogan; margin-top:6rem; margin-left:7%; position:absolute;
+    animation-duration:7.5; animation-iteration-count: infinite; font-size:2.5rem; font-family:fantasy;
+     color: #e6e9eb; animation-direction:normal; word-spacing:0.4rem;}
+
+.content h2{margin-top:70rem; margin-left:50%; position:absolute; font-size:2.9rem; font-family:fantasy;
+    color: #dfe4e7; overflow-x: hidden; animation: join 15s infinite; }
+
+.logo{ width:27rem; position:absolute; 
+    margin-top:-6rem; margin-left:-4%}
+
+
+.c1{ position: absolute;
+    margin-top:5rem; margin-left:70%;
+    width:25rem; height:20rem; 
+background-image: linear-gradient(to right, rgb(60, 55, 68), rgba(160, 151, 152, 0.815));}
+.c2{ position: absolute;
+        margin-top:10rem; margin-left:45%;
+        width:25rem; height:20rem;
+    background-image: linear-gradient(to right, rgb(60, 55, 68), rgba(226, 208, 105, 0.801));}
+.c3{ position: absolute;
+            margin-top:35rem; margin-left:6%;
+            width:25rem; height:20rem;
+        background-image: linear-gradient(to right, rgb(60, 55, 68), rgba(104, 180, 199, 0.747));}
+.c4{ position: absolute;
+            margin-top:40rem; margin-left:30%;
+            width:25rem; height:20rem;
+        background-image: linear-gradient(to right, rgb(60, 55, 68), rgba(199, 139, 104, 0.747));}
+
+.card-title{ color:white; font-family:Georgia;
+    font-size:1.4rem; background-color:rgba(43, 40, 40, 0.377);}
+.card-text{ color:rgb(233, 230, 230); margin-top:2rem;}
+
+
+@keyframes slogan {
+    0%,75%{
+        opacity: 1;
+      }
+    80%,100%{
+        opacity: 0;
+      }
+    }
+
+    @keyframes bg {
+    0%{
+            background-image:url(space1.jpg);
+          }
+    80%{
+        background-image:url(space2.jpg);
+          }
+        }
+
+ @keyframes join {
+            0%{
+             transform:translate(-220%); }
+           100%{
+            transform:translate(140%);}}
+
+ @media  only screen and (width <= 485px) { html{font-size:50%;} .logo{margin-top:-9rem;} 
+ .content video{width:40rem; height:12rem; margin-top:10rem;}
+ .c1{width:17rem; height:15rem; margin-top:15rem; margin-left:27rem;} 
+ .c2{width:17rem; height:15rem; margin-top:20rem; margin-left:12rem;} 
+ .c3{width:17rem; height:15rem;  margin-top:40rem; margin-left:1rem;} 
+ .c4{width:17rem; height:15rem;  margin-top:45rem; margin-left:16rem;}
+.html body{height:100%; overflow-y: hidden;} 
+ .content h2{margin-top:65rem; font-size:2rem; width:100%;}
+ @keyframes join {
+    0%{
+     transform:translate(-120%); }
+   100%{
+    transform:translate(50%);}}
+}
