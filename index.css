@@ -21,7 +21,7 @@ html body{
      color: #e6e9eb; animation-direction:normal; word-spacing:0.4rem;}
 
 .content h2{margin-top:70rem; margin-left:50%; position:absolute; font-size:2.9rem; font-family:fantasy;
-    color: #dfe4e7; overflow-x: hidden; animation: join 15s infinite; }
+    color: #e6e9eb; overflow-x: hidden; animation: join 15s infinite; }
 
 .logo{ width:27rem; position:absolute; 
     margin-top:-6rem; margin-left:-4%}
@@ -29,7 +29,7 @@ html body{
 
 .c1{ position: absolute;
     margin-top:5rem; margin-left:70%;
-    width:25rem; height:20rem; 
+    width:25rem; height:20rem; padding-left:0.5rem;
 background-image: linear-gradient(to right, rgb(60, 55, 68), rgba(160, 151, 152, 0.815));}
 .c2{ position: absolute;
         margin-top:10rem; margin-left:45%;
@@ -46,7 +46,7 @@ background-image: linear-gradient(to right, rgb(60, 55, 68), rgba(160, 151, 152,
 
 .card-title{ color:white; font-family:Georgia;
     font-size:1.4rem; background-color:rgba(43, 40, 40, 0.377);}
-.card-text{ color:rgb(233, 230, 230); margin-top:2rem; padding-left:1rem;}
+.card-text{ color:rgb(233, 230, 230); margin-top:2rem;}
 
 
 @keyframes slogan {
@@ -73,19 +73,19 @@ background-image: linear-gradient(to right, rgb(60, 55, 68), rgba(160, 151, 152,
            100%{
             transform:translate(140%);}}
 
- @media  only screen and (width <= 485px) { html{font-size:50%;} .logo{margin-top:-9rem;} 
- .content video{width:40rem; height:12rem; margin-top:10rem;}
+ @media  only screen and (width <= 900px) { html{font-size:50%;} .logo{margin-top:-9rem;} 
+ .content video{width:90%; height:12rem; margin-top:10rem;}
  .c1{width:17rem; height:15rem; margin-top:15rem; margin-left:62%;} 
  .c2{width:17rem; height:15rem; margin-top:20rem; margin-left:30%;} 
  .c3{width:17rem; height:15rem;  margin-top:40rem; margin-left:2%;} 
  .c4{width:17rem; height:15rem;  margin-top:45rem; margin-left:35%;}
  .c1{padding-left:1rem; }
- html body{ width:100%; overflow-x:hidden;} .content h3{font-family:monospace; word-spacing:-0.5rem;}
- .content h2{margin-top:65rem; font-size:2rem; font-family:monospace; width:100%;}
+ html body{ width:100%; overflow-x:hidden;} .content h3{font-family:Copperplate, Papyrus, fantasy;}
+ .content h2{margin-top:65rem; position:fixed; font-size:2rem; font-family:Copperplate, Papyrus, fantasy; width:100%;}
  .firstpagebg{width:100%; overflow-x:hidden;}
  @keyframes join {
     0%{
-     transform:translate(-120%); }
+     transform:translate(-100%); }
    100%{
     transform:translate(50%);}}
 }
