@@ -72,8 +72,42 @@ background-image: linear-gradient(to right, rgb(60, 55, 68), rgba(160, 151, 152,
              transform:translate(-220%); }
            100%{
             transform:translate(140%);}}
+            
+            @media  only screen and ( width = 1366px) { html{font-size:80%;} html body{ width:100%; overflow-x:hidden;}
+            .c1{ margin-top:15rem; margin-left:72%;} 
+             .c2{ margin-top:20rem; margin-left:50%;} 
+             .c3{ margin-top:40rem; margin-left:2%;} 
+             .c4{ margin-top:45rem; margin-left:24%;}
+             .c1{ padding-left:1rem; }
+        }
+        @media  only screen and ( width = 1280px) { html{font-size:70%;} html body{ width:100%; overflow-x:hidden;}
+        .content video{width:60%; height:14rem; margin-top:10rem;}
+        .c1{ margin-top:15rem; margin-left:72%;} 
+        .c2{ margin-top:20rem; margin-left:51%;} 
+        .c3{ margin-top:40rem; margin-left:2%;} 
+        .c4{ margin-top:45rem; margin-left:23%;}
+        .c1{ padding-left:1rem; }
+        }
+        @media  only screen and ( width = 1024px) { html{font-size:65%;} html body{ width:100%; overflow-x:hidden;}
+        .content video{width:60%; height:14rem; margin-top:10rem;}
+        }
+        @media  only screen and ( width = 912px) { html{font-size:60%;} html body{ width:100%; overflow-x:hidden;}
+        .content video{width:60%; height:14rem; margin-top:10rem;}
+        }
+        @media  only screen and ( width = 820px) { html{font-size:55%;} html body{ width:100%; overflow-x:hidden;}
+        .content video{width:60%; height:14rem; margin-top:10rem;}
+        }
+        @media  only screen and ( width = 800px) { html{font-size:55%;} html body{ width:100%; overflow-x:hidden;}
+        .content video{width:60%; height:14rem; margin-top:10rem;}
+        }
+        @media  only screen and ( width = 768px) { html{font-size:52%;} html body{ width:100%; overflow-x:hidden;}
+        .content video{width:60%; height:14rem; margin-top:10rem;}
+        }
+        @media  only screen and ( width = 712px) { html{font-size:49%;} html body{ width:100%; overflow-x:hidden;}
+        .content video{width:60%; height:14rem; margin-top:10rem;}
+        }
 
- @media  only screen and (width <= 800px) { html{font-size:50%;} .logo{margin-top:-9rem;} 
+ @media  only screen and (width <= 700px) { html{font-size:50%;} .logo{margin-top:-9rem;} 
  .content video{width:90%; height:12rem; margin-top:10rem;}
  .c1{width:17rem; height:15rem; margin-top:15rem; margin-left:62%;} 
  .c2{width:17rem; height:15rem; margin-top:20rem; margin-left:30%;} 
