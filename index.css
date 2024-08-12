@@ -80,7 +80,7 @@ background-image: linear-gradient(to right, rgb(60, 55, 68), rgba(160, 151, 152,
  .c3{width:17rem; height:15rem;  margin-top:40rem; margin-left:2%;} 
  .c4{width:17rem; height:15rem;  margin-top:45rem; margin-left:35%;}
  .c1{padding-left:1rem; }
- html body{ width:100%; overflow-x:hidden;} .content h3{font-family:'Alegreya'; font-size:3rem;}
+ html body{ width:100%; overflow-x:hidden;} .content h3{font-family:'Black Ops One',Impact,Fantasy; font-size:3rem;}
  .content h2{margin-top:64rem; position:fixed; z-index:20; overflow:hidden; font-size:2.5rem; word-spacing:0.2rem; font-family:'Alegreya'; width:75%;}
  .firstpagebg{width:100%; overflow-x:hidden;}
  @keyframes join {
