@@ -36,7 +36,7 @@ background-image: linear-gradient(to right, rgb(60, 55, 68), rgba(160, 151, 152,
         width:25rem; height:20rem;
     background-image: linear-gradient(to right, rgb(60, 55, 68), rgba(226, 208, 105, 0.801));}
 .c3{ position: absolute;
-            margin-top:35rem; margin-left:6%;
+            margin-top:35rem; margin-left:5.5%;
             width:25rem; height:20rem;
         background-image: linear-gradient(to right, rgb(60, 55, 68), rgba(104, 180, 199, 0.747));}
 .c4{ position: absolute;
@@ -46,8 +46,7 @@ background-image: linear-gradient(to right, rgb(60, 55, 68), rgba(160, 151, 152,
 
 .card-title{ color:white; font-family:Georgia;
     font-size:1.4rem; background-color:rgba(43, 40, 40, 0.377);}
-.card-text{ color:rgb(233, 230, 230); margin-top:2rem;}
-
+.card-text{ color:rgb(233, 230, 230); margin-top:2rem; font-size:1.2rem;}
 
 @keyframes slogan {
     0%,75%{
@@ -108,7 +107,7 @@ background-image: linear-gradient(to right, rgb(60, 55, 68), rgba(160, 151, 152,
         }
 
  @media  only screen and (width <= 700px) { html{font-size:50%;} .logo{margin-top:-9rem;} 
- .content video{width:90%; height:12rem; margin-top:10rem;}
+ .content video{width:90%; height:12rem; margin-top:10rem;} .card-text{font-size:0.8rem; margin-top:1rem;}
  .c1{width:17rem; height:15rem; margin-top:15rem; margin-left:62%;} 
  .c2{width:17rem; height:15rem; margin-top:20rem; margin-left:30%;} 
  .c3{width:17rem; height:15rem;  margin-top:40rem; margin-left:2%;} 
